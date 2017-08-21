@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.home {
+  height: 84vh;
+  background-image: url('./pictures/CoffeeNotebook.jpeg');
+  background-size: cover;
+
+}
+
+#ingroup {
+  margin-left: 520px;
+  margin-top: 2px;
+}
+
+#ingroup1 {
+  margin-left: 520px;
+
+}
+
+.base {
+  background-color: beige;
+  height: 100vh;
+}
+
+.input {
+  height: 1000px;
+  width: 500px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title {
+  margin-bottom: -15%;
+  text-align: center;
+  margin-top: 4%;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 4em;
+
+}
+
+#recimage {
+  height: 400px;
+  width: 600px;
+  margin-left: 29.5%;
+  margin-top: 17.5%;
+  border-style: groove;
+  border-color: tan;
+  border-width: 10px;
+  border-radius: 5%;
+}
+
+.NavBar {
+  background-color: beige;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.ingredientGroup1 {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 270px;
+}
+
+.food-3 {
+  margin-left: 260px;
+  margin-top: 75px;
+
+}
+
+.ingredientGroup2 {
+  margin-left: -70px;
+}
+
+#foodpic1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-color: tan;
+  border-style: groove;
+  margin-top: 15px;
+}
+
+#foodpic2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-color: tan;
+  border-style: groove;
+  margin-top: 15px;
+}
+
+#foodpic3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-color: tan;
+  border-style: groove;
+  margin-top: -40px;
+
+}
+
+.ready {
+  text-decoration: underline;
+  font-size: 5em;
+  font-weight: 100;
+  font-family: serif;
+  margin-right: 300px;
+}
+
+.almostready {
+  text-decoration: underline;
+  font-size: 5em;
+  font-weight: 100;
+  font-family: serif;
+  margin-right: 300px;
+
+}
+
+
+.footer {
+  background-color: #f7f7f7;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+
+
+}
