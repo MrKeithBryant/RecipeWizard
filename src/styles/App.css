@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 
@@ -115,19 +117,60 @@
   text-decoration: none;
 }
 
-.ingredientGroup1 {
+.food-1 {
   display: flex;
-  justify-content: space-around;
-  margin-right: 270px;
+}
+
+.food-2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: -300px;
 }
 
 .food-3 {
+  display: inline-flex;
+
   margin-left: 260px;
   margin-top: 75px;
+}
+
+
+.recipeBlock {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 13px;
+}
+
+.recipeBlock1 {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: -200px;
+}
+
+.recipeBlock2 {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: -38px;
+
 
 }
 
-.ingredientGroup2 {
+.recipeGroup1 {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 300px;
+}
+
+.recipeGroup2 {
+  display: flex;
+
+  margin-right: 50px;
+
+}
+
+.recipeGroup3 {
+  display: inline-flex;
+  flex-direction: column;
   margin-left: -70px;
 }
 
@@ -139,6 +182,10 @@
   border-color: tan;
   border-style: groove;
   margin-top: 15px;
+  background-image: url('/SushiPic.jpg');
+  background-size: cover;
+  background-position: center;
+
 }
 
 #foodpic2 {
@@ -149,6 +196,10 @@
   border-color: tan;
   border-style: groove;
   margin-top: 15px;
+  margin-left: -205px;
+  background-image: url('/Shrimp-Tacos.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 #foodpic3 {
@@ -159,7 +210,17 @@
   border-color: tan;
   border-style: groove;
   margin-top: -40px;
+  margin-left: -50px;
+  background-image: url('/FlamingBBQ.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
+.modalName {
+  width: 300px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 .ready {

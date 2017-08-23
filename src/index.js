@@ -9,6 +9,7 @@ import BaseLayout from './components/baselayout';
 import inventory from './components/inventory';
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>

@@ -1,41 +1,118 @@
 import React from 'react';
-import Pic1 from '../styles/pictures/BabyTomatoesPic.jpeg';
-import Pic2 from '../styles/pictures/EggSaucerPic.jpg';
-import Pic3 from '../styles/pictures/FreshVeggiesPic.jpeg';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import RecipeModal from './RecipeModal';
+
 export default class kitchen extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      modal: false
+    };
+
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle() {
+    this.setState({
+      modal: !this.state.modal
+    });
+  }
+
   render () {
     return (
       <div>
         <div className='home'>
           <div className='kitchen'>
             <h3 className='ready'><center> _Ready_Recipes_ </center></h3>
-                <div className='ingredientGroup1'>
+                <div className='recipeGroup1'>
                   <div className='food-1'>
-                    <img id='foodpic1' src={Pic1} />
-                      <ol>
+                    <div id='foodpic1'/>
+                      <div className='recipeBlock'>
+                          <RecipeModal
+                            buttonLabel={this.props.RecipeName}
+                            title={this.props.RecipeName}
+                            Recipe={this.props.Recipe}
+                          />
+                          <RecipeModal
+                            buttonLabel={this.props.RecipeName}
+                            title={this.props.RecipeName}
+                            Recipe={this.props.Recipe}
+                          />
+                          <RecipeModal
+                            buttonLabel={this.props.RecipeName}
+                            title={this.props.RecipeName}
+                            Recipe={this.props.Recipe}
+                          />
+                          <RecipeModal
+                            buttonLabel={this.props.RecipeName}
+                            title={this.props.RecipeName}
+                            Recipe={this.props.Recipe}
+                          />
 
-                      </ol>
+                                </div>
                   </div>
+                <div className='recipeGroup2'>
                   <div className='food-2'>
-                    <img id='foodpic2' src={Pic2} />
-                      <ol>
-
-                      </ol>
+                    <div id='foodpic2' />
+                      <div className='recipeBlock1'>
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
                   </div>
                 </div>
-                <div className='ingredientGroup2'>
-                  <h3 className='almostready'><center> _Almost_Ready_</center></h3>
+              </div>
+            </div>
+
+
+                <h3 className='almostready'><center> _Almost_Ready_</center></h3>
+                <div className='recipeGroup3'>
                   <div className='food-3'>
-
-                      <img id='foodpic3' src={Pic3} />
-                        <ol>
-
-                        </ol>
+                    <div id='foodpic3' />
+                      <div className='recipeBlock2'>
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
+                      <RecipeModal
+                        buttonLabel={this.props.RecipeName}
+                        title={this.props.RecipeName}
+                        Recipe={this.props.Recipe}
+                      />
                   </div>
                 </div>
           </div>
         </div>
+
       </div>
+    </div>
     );
   }
 }
