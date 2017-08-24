@@ -23,7 +23,7 @@ export default class kitchen extends React.Component {
       <div>
         <div className='home'>
           <div className='kitchen'>
-            <h3 className='ready'><center> _Ready_Recipes_ </center></h3>
+            <h3 className='ready'><center> Ready Recipes </center></h3>
                 <div className='recipeGroup1'>
                   <div className='food-1'>
                     <div id='foodpic1'/>
@@ -79,9 +79,7 @@ export default class kitchen extends React.Component {
                 </div>
               </div>
             </div>
-
-
-                <h3 className='almostready'><center> _Almost_Ready_</center></h3>
+                <h3 className='almostready'><center> Almost Ready </center></h3>
                 <div className='recipeGroup3'>
                   <div className='food-3'>
                     <div id='foodpic3' />

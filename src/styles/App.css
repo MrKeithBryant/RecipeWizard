@@ -33,12 +33,30 @@
 
 }
 
-#ingroup {
+.home-container > .home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-container > .home > .inventory {
+  flex-basis: 100%;
+}
+
+.home-container > .home > .ing-container {
+  flex-basis: calc(50% - 10px);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#inputgroup {
   margin-left: 520px;
   margin-top: 2px;
 }
 
-#ingroup1 {
+#inputgroup1 {
   margin-left: 520px;
 
 }
@@ -172,6 +190,7 @@
   display: inline-flex;
   flex-direction: column;
   margin-left: -70px;
+  margin-top: -25px;
 }
 
 #foodpic1 {
@@ -224,20 +243,22 @@
 }
 
 .ready {
-  text-decoration: underline;
+
   font-size: 5em;
   font-weight: 100;
   font-family: serif;
   margin-right: 300px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .almostready {
-  text-decoration: underline;
+
   font-size: 5em;
   font-weight: 100;
   font-family: serif;
   margin-right: 300px;
-
+  font-family: 'Dancing Script', cursive;
+  margin-top: 25px;
 }
 
 
@@ -247,6 +268,117 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.inventory {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+  font-weight: 100;
+}
+
+.inggroup1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+
+}
+
+.ingblock1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.ingblock2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+#ingredientinput {
+  margin-top: 13px;
+}
+
+.inggroup2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+
+
+.ingblock3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+
+.ingblock4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+
+#ingpic1 {
+  background-image: url('/Steaks1.jpeg');
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-color: tan;
+  border-style: groove;
+  background-size: cover;
+  background-position: center;
+}
+
+#ingpic2{
+  background-image: url('/EggsPic.jpg');
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-color: tan;
+  border-style: groove;
+  background-size: cover;
+  background-position: center;
+}
+
+#ingpic3 {
+  background-image: url('/MultipleIngredientsPic.jpeg');
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-color: tan;
+  border-style: groove;
+  background-size: cover;
+  background-position: center;
+}
+
+#ingpic4 {
+  background-image: url('/Ribs.jpeg');
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  border-width: 10px;
+  border-color: tan;
+  border-style: groove;
+  background-size: cover;
+  background-position: center;
+}
+
+#ingredientinput {
+
+  }
+
+#wizard {
+  width: 400px;
+  margin: 40px auto;
+
+
+
 }
 
 .copy {

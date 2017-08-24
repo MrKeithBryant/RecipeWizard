@@ -9,12 +9,12 @@ export default class homepage extends React.Component {
     return (
     <div className='home'>
       <div>
-      <InputGroup id='ingroup' size='sm' style={{width: '400px'}}>
+      <InputGroup id='inputgroup' size='sm' style={{width: '400px'}}>
         <InputGroupAddon>Username</InputGroupAddon>
         <Input placeholder="username" />
       </InputGroup>
       <br />
-        <InputGroup id='ingroup1' size='sm' style={{width: '400px'}}>
+        <InputGroup id='inputgroup1' size='sm' style={{width: '400px'}}>
           <InputGroupAddon>Password</InputGroupAddon>
           <Input type='password' placeholder='password'/>
         </InputGroup>
