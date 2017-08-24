@@ -15,18 +15,7 @@ export default class FoodCard extends React.Component {
       <div className='ing-container'>
         <div className='ingpic'  style={style} />
         <div className='ingblock3'>
-          <InputGroup id='ingredientinput' size='sm' style={{width: '300px', height: '30px'}}>
-            <Input placeholder="Ingredients here!" />
-          </InputGroup>
-          <InputGroup id='ingredientinput' size='sm' style={{width: '300px', height: '30px'}}>
-            <Input placeholder="Ingredients here!" />
-          </InputGroup>
-          <InputGroup id='ingredientinput' size='sm' style={{width: '300px', height: '30px'}}>
-            <Input placeholder="Ingredients here!" />
-          </InputGroup>
-          <InputGroup id='ingredientinput' size='sm' style={{width: '300px', height: '30px'}}>
-            <Input placeholder="Ingredients here!" />
-          </InputGroup>
+          {this.props.children}
         </div>
       </div>
     )
