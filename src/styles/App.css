@@ -320,45 +320,7 @@
   margin-left: 15px;
 }
 
-
-#ingpic1 {
-  background-image: url('/Steaks1.jpeg');
-  width: 200px;
-  height: 200px;
-  border-radius: 25%;
-  border-width: 10px;
-  border-color: tan;
-  border-style: groove;
-  background-size: cover;
-  background-position: center;
-}
-
-#ingpic2{
-  background-image: url('/EggsPic.jpg');
-  width: 200px;
-  height: 200px;
-  border-radius: 25%;
-  border-width: 10px;
-  border-color: tan;
-  border-style: groove;
-  background-size: cover;
-  background-position: center;
-}
-
-#ingpic3 {
-  background-image: url('/MultipleIngredientsPic.jpeg');
-  width: 200px;
-  height: 200px;
-  border-radius: 25%;
-  border-width: 10px;
-  border-color: tan;
-  border-style: groove;
-  background-size: cover;
-  background-position: center;
-}
-
-#ingpic4 {
-  background-image: url('/Ribs.jpeg');
+.ingpic {
   width: 200px;
   height: 200px;
   border-radius: 25%;
