@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/App.css';
 import kitchen from './kitchen.js';
 import recimage from '../styles/pictures/Pasta-Pic.jpeg';
 import { InputGroup, InputGroupAddon, Input } from 'reactstrap';
