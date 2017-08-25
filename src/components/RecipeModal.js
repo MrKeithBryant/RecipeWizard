@@ -20,7 +20,7 @@ export default class RecipeModal extends React.Component {
   render() {
     return (
       <div>
-        <Button className='modalName' color="secondary" onClick={this.toggle}>{this.props.buttonLabel}</Button>
+        <Button className='modalName' onClick={this.toggle}>{this.props.buttonLabel}</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>{this.props.title}</ModalHeader>
           <ModalBody>
