@@ -27,8 +27,7 @@ export default class RecipeModal extends React.Component {
             {this.props.Recipe}
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Expand</Button>{' '}
-            <Button color="secondary" onClick={this.toggle}>Return</Button>
+            <Button color="primary" onClick={this.toggle}>Return</Button>{' '}
           </ModalFooter>
         </Modal>
       </div>
