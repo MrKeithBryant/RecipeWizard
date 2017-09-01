@@ -7,8 +7,9 @@ export default class App extends React.Component {
     constructor(props) {
       super(props);
       let items;
-      if (myinventory.getItem('items')){
-       items = JSON.parse(myinventory.getItem('items'));
+      const category=this.props.category;
+      if (myinventory.getItem(category)){
+       items = JSON.parse(myinventory.getItem(category));
       }
       else{
         items = [];
@@ -26,17 +27,21 @@ export default class App extends React.Component {
         event.preventDefault()
         console.log(this.state.items);
         const items = [...this.state.items, this.state.term]
+        const category=this.props.category;
         this.setState({
           term: '',
           items
         });
-        myinventory.setItem('items',JSON.stringify(items));
+        myinventory.setItem(category,JSON.stringify(items));
       }
     
       onDelete = (key) => {
         let items=this.state.items;
+        const category=this.props.category;
         items = items.filter((item, index) => index !== key);
         this.setState({...this.state, items });
+        myinventory.removeItem(category);
+        myinventory.setItem(category, JSON.stringify(items));
       }
   
     render() {
