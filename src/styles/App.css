@@ -49,26 +49,16 @@
   justify-content: center;
 }
 
-.inputSubmit {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
 
-#subButton {
-  margin-top: 20px;
-  background-color: silver;
-  border: 2px white solid;
-}
 
 #inputgroup {
+  margin-left: 490px;
+  margin-top: 2px;
 
-  margin-top: 20px;
 }
 
 #inputgroup1 {
-  width: 400px;
+  margin-left: 490px;
 
 }
 
@@ -87,32 +77,46 @@
 }
 
 .title {
-  margin-bottom: 10px;
+  margin-bottom: -15%;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 2%;
   font-weight: 600;
   font-family: cursive;
   font-size: 4em;
-
+  margin-left: 4%;
 }
 
 #recimage {
   height: 400px;
   width: 600px;
   margin-left: 29.5%;
-  margin-bottom: 20px;
+  margin-top: 17.5%;
   border-style: groove;
   border-color: tan;
   border-width: 10px;
   border-radius: 5%;
 }
 
-.NavBar {
-  background-color: beige;
-  height: 100px;
+.Nav1 {
+
+}
+
+.NavB {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  background-color: beige;
+  height: 60px;
+}
+
+.ml-auto {
+  background-color: none;
+}
+
+#Nbar {
+  background-color: snow;
+  background-color: #f7f7f7;
+  height: 55px;
+  margin-bottom: -1px;
 }
 
 .button1 {
@@ -276,7 +280,7 @@
 
 .footer {
   background-color: #f7f7f7;
-  height: 55px;
+  height: 54px;
   display: flex;
   justify-content: center;
   align-items: center;

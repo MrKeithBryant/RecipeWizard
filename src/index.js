@@ -6,9 +6,8 @@ import homepage from './components/homepage.js';
 import kitchen from './components/kitchen.js';
 import BaseLayout from './components/baselayout';
 import inventory from './components/inventory';
+import 'bootstrap/dist/css/bootstrap.css';
 import './styles/index.css';
-import './styles/App.css';
-
 
 
 ReactDOM.render(
