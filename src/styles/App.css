@@ -52,13 +52,13 @@
 
 
 #inputgroup {
-  margin-left: 490px;
+  margin-left: 450px;
   margin-top: 2px;
 
 }
 
 #inputgroup1 {
-  margin-left: 490px;
+  margin-left: 450px;
 
 }
 
@@ -83,13 +83,13 @@
   font-weight: 600;
   font-family: cursive;
   font-size: 4em;
-  margin-left: 4%;
+
 }
 
 #recimage {
   height: 400px;
   width: 600px;
-  margin-left: 29.5%;
+
   margin-top: 17.5%;
   border-style: groove;
   border-color: tan;
@@ -277,6 +277,11 @@
   margin-top: 25px;
 }
 
+.Homepage {
+  display: flex;
+  flex-direction: column;
+
+}
 
 .footer {
   background-color: #f7f7f7;
@@ -284,6 +289,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 .inventory {
@@ -381,7 +387,7 @@ h2{
   color:gold;
   font-size:60px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-  
+
 }
 .list{
   color:#000000;

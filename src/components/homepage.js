@@ -8,7 +8,7 @@ export default class homepage extends React.Component {
   render () {
     return (
     <div className='home'>
-      <div>
+      <div className='Homepage'>
       <InputGroup id='inputgroup' size='sm' style={{width: '400px'}}>
         <InputGroupAddon>Username</InputGroupAddon>
         <Input placeholder="username" />
@@ -18,9 +18,9 @@ export default class homepage extends React.Component {
           <InputGroupAddon>Password</InputGroupAddon>
           <Input type='password' placeholder='password'/>
         </InputGroup>
-        <h1 className='title'> Recipe Wizard </h1>
+        <h1 className='title'><center> Recipe Wizard </center></h1>
         <div className='recimage'>
-          <img id='recimage' src={recimage}/>
+          <center><img id='recimage' src={recimage}/></center>
         </div>
       </div>
     </div>
