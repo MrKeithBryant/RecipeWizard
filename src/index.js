@@ -5,10 +5,13 @@ import registerServiceWorker from './registerServiceWorker';
 import homepage from './components/homepage.js';
 import kitchen from './components/kitchen.js';
 import BaseLayout from './components/baselayout';
-import inventory from './components/Inventory.jsx';
-import './styles/index.css';
-import './styles/App.css';
 
+
+import 'bootstrap/dist/css/bootstrap.css';
+
+import inventory from './components/Inventory.jsx';
+
+import './styles/index.css';
 
 
 ReactDOM.render(

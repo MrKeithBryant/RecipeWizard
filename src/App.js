@@ -1,25 +1,21 @@
-/*
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './styles/App.css';
 import navbar from './components/navbar.js'
-import kitchen from './components/kitchen.js';
-import baselayout from './components/baselayout';
-import inventory from './components/inventory';
 
-export default class App extends React.Component {
-  render () {
+class App extends Component {
+  render() {
     return (
-      <div>
-        <baselayout>
-          <navbar>
-            <kitchen />
-            <inventory />
-            (Can anybody hear me?)
-          </navbar>
-        </baselayout>
+      <div className='nav'>
+        <navbar className='nav-b'>
+          <homepage />
+          <kitchen />
+          (Can anybody hear me?)
+
+        </navbar>
       </div>
-    )
+    );
   }
 }
-*/
+
+export default App;
